@@ -2,7 +2,7 @@
     "builds": [{
         "src": "HudumaOnline/wsgi.py",
         "use": "@vercel/python",
-       
+        "config": {"macLambdaSize": "15mb", "runtime": "python3.9"}
     }],
     "routs": [
         {
