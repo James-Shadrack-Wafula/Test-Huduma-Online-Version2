@@ -1,0 +1,13 @@
+{
+    "builds": [{
+        "src": "HudumaOnline/wsgi.py",
+        "use": "@vercel/python",
+       
+    }],
+    "routs": [
+        {
+            "src": "/(.*)",
+            "dest": "HudumaOnline/wsgi.py"
+        }
+    ]
+}
