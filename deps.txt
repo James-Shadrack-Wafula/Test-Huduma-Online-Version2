@@ -1,12 +1,9 @@
-asgiref
-Brotli
+
 dj-database-url
 Django
 djangorestframework
-gunicorn
-packaging
 pillow
 psycopg2-binary
 sqlparse
 typing_extensions
-whitenoise
+gunicorn
