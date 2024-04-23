@@ -2,7 +2,7 @@
 dj-database-url==2.1.0
 Django
 djangorestframework==3.15.1
-pillow==10.3.0
+pillow
 psycopg2-binary==2.9.9
 sqlparse==0.5.0
 typing_extensions==4.11.0
