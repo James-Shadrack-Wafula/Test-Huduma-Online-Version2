@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import django_heroku
+# import django_heroku
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'base.apps.BaseConfig',
 
     'rest_framework',
-    "corsheaders",
+    
 ]
 AUTH_USER_MODEL = 'base.User'
 
@@ -142,4 +142,4 @@ MEDIA_ROOT = BASE_DIR / 'static/images'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
